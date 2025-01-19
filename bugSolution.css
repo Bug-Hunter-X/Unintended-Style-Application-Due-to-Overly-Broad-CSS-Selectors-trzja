@@ -1,0 +1,18 @@
+To solve this, use more specific selectors. Instead of targeting all paragraphs with `p`, target only the specific paragraphs that require the unique styling using more specific selectors, possibly involving classes or IDs.  Example:
+
+/* Incorrect (too broad): */
+p {
+  color: red;
+}
+
+/* Correct (more specific): */
+.error-message {
+  color: red;
+}
+
+/* Correct (using an ID): */
+#specificParagraph {
+  color: red;
+}
+
+This approach ensures that styling is applied only where intended, preventing unexpected visual issues.
