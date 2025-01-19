@@ -1,0 +1,1 @@
+The CSS code uses a selector that is too broad, causing unintended styles to be applied.  For example, using `p` to style all paragraphs when only certain ones need styling. This can lead to unexpected visual results and make debugging difficult.
